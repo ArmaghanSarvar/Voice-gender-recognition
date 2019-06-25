@@ -3,7 +3,7 @@ function [] = plotPowerSpec( fileAddress )
 [data, fs]= audioread(fileAddress);
 len = length(data);
 data = data - mean(data);
-
+% power spec
 searchpow = abs(fft(data)/len).^2;
 %disp(searchpow);
 hz = linspace(0, fs, len);
