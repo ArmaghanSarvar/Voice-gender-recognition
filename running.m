@@ -1,4 +1,4 @@
-files=dir('C:\Users\Armaghan\Desktop\exercises\project_9531807\*.mp3');
+files=dir('C:\Users\Armaghan\Desktop\signalProject\*.mp3');
 
 plotPowerSpec('v0.mp3');   % any file you want to plot
 
